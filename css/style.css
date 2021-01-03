@@ -1,0 +1,701 @@
+@charset "utf-8";
+body {margin: 0px;padding: 0px; font-family:Arial, Helvetica, sans-serif; font-size:18px;}
+
+h1, h2, h3, h4, h5, h6, span, a, p, ul, ol, checkbox, textfield, textarea, input, form, radio, strong{ margin:0px; padding:0px;}
+
+
+a{ text-decoration:none;}
+img{border:none;}
+a, img{ border:none;}
+
+
+/*******************************************************************************************************************************/
+header, nav, hgroup, figure, figcaption, audio, footer, article, aside, section, video { margin:0px;  padding:0px; display:block;}
+
+/*******************************************************************************************************************************/
+.wrap{ width:1100px; margin:0 auto 0 auto; }
+.main{ width:100%; float:left; background-color:#FFF;}
+.header{ width:100%; float:left; background-color:#FFF;}
+.header hgroup{ width:15%; float:left; padding:11px 0 0 0}
+.header nav{ width:53%; float:left; margin:0 0 0 180px}
+.header nav ul{ list-style:none; margin:0px; padding:0px;}
+.header nav ul li{ float:left;}
+.header nav ul li a{ font-family:"raleway semiBold"; font-size:15px; color:#333;padding:24px 24px 24px 24px; display:block; text-align:center;border-bottom:#fff solid 2px; transition:all 1s ease; background-color:#FFF; }
+.header nav ul li a:hover{ color:#939;border-bottom:#939 solid 2px;transform:translateY(20px);}
+.header aside{ width:15%; float:right; padding:13px 0 0 0;}
+.header aside a{ width:157px; height:38px; line-height:38px; text-align:center; font-family:"raleway semiBold"; font-size:17px; color:#FFF; display:block; background-color:#00cc56; text-transform:uppercase; border-radius:4px; box-shadow:#093 0 -3px 0 0 inset;}
+.header aside a:hover{ background-color:#939; color:#FFF;box-shadow:#682981 0 -3px 0 0 inset;}
+
+
+
+/***************************************************************************************************************/
+.bnr{ width:100%; float:left; background:url(../images/bnr.png) center  top repeat-y;padding:440px 0 111px 0; background-size:cover;}
+.bnr h1{ font-family:"Myriad Pro"; font-size:58px; color:#FFF; text-transform:uppercase; text-align:center; font-weight:400;  }
+.bnr h1 span{ display:block;}
+
+/**************************************************************************************************************/
+
+.bdy2{width:100%; float:left; background:url(../images/body.png)  center top no-repeat; text-align:center; padding:39px 0 0px 0}
+.bdy2 h1{ font-family:"Myriad Pro"; font-size:19px; color:#000; font-weight:200; padding:0 0 48px 0}
+.bdy2 h1 span{ font-family:Raleway; font-size:17px; color:#333;font-weight:bold;}
+
+.bdy2 figure{ width:100%; float:left; padding:0 0 57px 0; text-align:center;}
+
+.we{ width:100%; float: left; background:url(../images/we.png) center top repeat-y; }
+.we h1{ font-family:"Myriad Pro"; font-size:50px; color:#FFF; text-align:center; text-transform:uppercase; font-weight:300; padding:118px 0 29px 0}
+.we h2{ font-family:Raleway; font-size:47px; color:#CCC; text-align:center; font-style:italic; font-weight:300; line-height:52px; padding:0 0 29px 0}
+.we p{ font-family:Raleway; font-size:20px; color:#CCC; text-align:center; font-weight:300;line-height:29px;}
+.we a{width:139px; height:40px; display:block; border:#FFF solid 1px; border-radius:5px; color:#FFF; font-family:"Raleway SemiBold"; text-transform:uppercase; line-height:40px; text-align:center; margin:34px auto 126px auto; }
+.we a:hover{ background-color:#930;}
+
+.eltra{ width:100%; float:left;}
+.eltra article{ width:35%; float:left; background:url(../images/article.png) left top no-repeat; padding:557px 0 100px 15%;}
+
+.eltra article h1{ font-family:Raleway; font-size:27px; color:#FFF;font-weight:400}
+.eltra article p{ font-family:Raleway; font-size:22px; color:#FFF; font-weight:200}
+.eltra aside{ width:44%; float:right; background:url(../images/aside.png) right top no-repeat;padding:557px 0% 100px 6%}
+.eltra aside h2{ font-family:Raleway; font-size:27px; color:#FFF;font-weight:400}
+.eltra aside p{ font-family:Raleway; font-size:22px; color:#FFF; font-weight:200;}
+
+
+
+
+
+
+/**********************************************************************************************/
+
+.glo{ width:100%; float:left; background-color:#f4f4f4;}
+.glo h1{ font-family:"Myriad Pro"; font-size:50px; color:#333; text-transform:uppercase; text-align:center; padding:82px 0 82px 0}
+.glo h1 span{ font-weight:100;}
+.glo figure{ width:100%; float:left; padding:0 0 74px 0;}
+/*.glo figure article{ width:33%; float:left}*/
+.glo figure article ul{ list-style:none; margin:0px; padding:0px;}
+.glo figure article ul li{ float:left;width:33.3%}
+.glo figure article ul li a{ font-family:"Myriad Pro"; font-size:35px; color:#666;background:url(../images/eyes.png)  5% center no-repeat; display:block; padding:47px 0 47px 30%; border:#dededf solid 1px; }
+.glo figure article ul li a span{ font-family:"Myriad Pro"; font-size:17px; color:#999; display:block; }
+.glo figure article ul li a:hover { background:url(../images/eyes7%27.png)5% center no-repeat;background-color:#6b6bbf; color:#fff;}
+.glo figure article ul li a:hover span{ font-family:"Myriad Pro"; font-size:17px; color:#fff; }
+.glo figure article ul li a.brd{ border-left:none; border-top:none;}
+.glo figure article ul li a.brd2{ border-top:none;}
+.glo figure article ul li a.brd3{ border-top:none; border-right:none;}
+.glo figure article ul li a.brd4{ border-bottom:none; border-left:none;}
+.glo figure article ul li a.brd5{ border-bottom:none;}
+.glo figure article ul li a.brd6{border-bottom:none;border-right:none;}
+
+
+
+/**********************************************************************************************/
+.be{ width:100%; float:left; background:url(../images/aloe-ba.png)  left top  no-repeat; padding:0 0 104px 0}
+.be article{ width:26%; float:left; padding:211px 0 0 0}
+.be article h1{ font-family:"open Sans"; font-size:45px; text-transform:uppercase; color:#FFF;; line-height:55px}
+.be article h1 span{ font-weight:200; font-family: "Open Sans Light";}
+.be article p{ font-family:Raleway; font-size:19px; font-weight:200; color:#fff; padding:10px 0 0 0;}
+.be a{width:139px; height:40px; display:block; border:#FFF solid 1px; border-radius:5px; color:#FFF; font-family:"Raleway SemiBold"; text-transform:uppercase; line-height:40px; text-align:center; margin:18px 0 0 0; }
+.be a:hover{ background-color:#930;}
+
+.be aside{ width:72%; float:right; padding:187px 0 0 0; text-align: right;}
+.btn { width:40%; float:right; padding:20px 0 0 60%}
+.btn  a{ width:10px; height:10px;  border-radius:50%; float:left; margin:0 6px 0 0; border:#069 solid 2px;}
+.btn  a:hover{background-color:#FFF;border:#fff solid 2px;}
+.btn  a.active{background-color:#FFF;border:#fff solid 2px; }
+
+
+/********************************************************************************************************************************/
+.con{ width:100%; float:left; background:url(../images/RGB.png) left top no-repeat;}
+.con h1{ font-family:"Myriad Pro"; font-size:50px; color:#FFF; text-align:center; text-transform:uppercase; padding:90px 0 70px 0}
+.con h1 span{ font-weight:100;}
+.con figure{ width:100%; float:left;}
+.con figure article{ width:31%; float:left; background:rgba(39,38,41,0.8); padding:0 0 39px 0; border-radius:5px; margin:0 0 100px 0}
+.con figure article h2{ text-align:center; padding:45px 0 19px 0;}
+.con figure article h3{ font-family:Raleway; font-size:23px; color:#FFF; text-align:center;}
+.con figure article a{ font-family:Raleway; font-size:17px; font-weight:200;color:#aaaaaa; text-align:center; display:block; padding:9px 0 0 0;}
+.con figure article:hover{ background:rgba(75,41,43,0.8); cursor:pointer;}
+.con figure article a:hover{ color:#FF0;}
+.con figure article.gap{ margin:0 3.4% 0 3.4%}
+
+.don{ width:100%; float:left; padding:0 0 35px 0; }
+.don article{ width:20%; float:left;}
+.don article h3 {font-family:"Myriad Pro"; font-size:26px; color:#FFF; text-transform:uppercase; padding:0 0 20px 0 }
+.don article ul{ list-style:none; margin:0px; padding:0px;}
+.don article ul li{ }
+.don article ul li a{ font-family:Raleway; font-size:14px; color:#CCC; display:block; line-height:27px; }
+.don article ul li a:hover{ color:#F93;}
+
+
+.foll{ width:20%; float:left; margin:0 0 0 99px}
+.foll h3 {font-family:"Myriad Pro"; font-size:26px; color:#FFF; text-transform:uppercase; padding:0 0 20px 0; }
+.foll ul{ list-style:none; margin:0px; padding:0px;}
+.foll ul li{}
+.foll ul li a{ background:url(../images/twtt.png) left top no-repeat;font-family:Raleway; font-size:14px; color:#CCC; display:block; line-height:27px; padding:0 0 0 35px ; margin:0 0 6px 0; transition: all 1s ease;}
+.foll ul li a:hover{ color:#F93; }
+.foll ul li a.facebook{ background:url(../images/facb.png) left top no-repeat;}
+.foll ul li a.google{ background:url(../images/go.png)  left top no-repeat;}
+.foll ul li a.pin{ background:url(../images/pi.png)  left top no-repeat;}
+
+/********************************************************************************************************************************/
+.our{ width:18%; float:left; margin:0 0 0 90px}
+.our h5{font-family:"Myriad Pro"; font-size:26px; color:#FFF; text-transform:uppercase; padding:0 0 20px 0 }
+.our ul{ list-style:none; margin:0px; padding:0px;}
+.our ul li{}
+.our ul li a{font-family:Raleway; font-size:14px; color:#CCC; display:block; line-height:27px; padding:0 0 0 30px ; margin:0 0 6px 0; background:url(../images/location.png) left 20% no-repeat;}
+
+.our ul li a.phone{ background:url(../images/phone.png) left 58% no-repeat;}
+.our ul li a.mail{ background:url(../images/mail.png)left 58% no-repeat; }
+  
+.last{ width:15%; float:right;}
+
+
+
+/********************************************************************************************************************************/
+@media only screen and ( min-width:320px ) and ( max-width:480px)
+{
+.wrap{ width:96%; padding:0 2% 0 2%;}
+.main{ width:100%; float:left; background-color:#FFF;}
+.header{ width:100%; float:left; background-color:#FFF;}
+.header hgroup{ width:100%; float:left; padding:11px 0 0 0; text-align:center;}
+.header hgroup img{ width:60%;}
+.header nav{ width:100%; float:left; margin:40px 0 0 0px; text-align:center;}
+.header nav ul{ list-style:none; margin:0px; padding:0px;}
+.header nav ul li{ float:none; display:inline;}
+.header nav ul li a{ font-family:"raleway semiBold"; font-size:12px; color:#333;padding:10px 10px 10px 10px; display: inline-block; text-align:center;border-bottom:#fff solid 2px; background-color:#FFF; }
+.header nav ul li a:hover{ color:#939;border-bottom:#939 solid 2px; transform:none;}
+.header aside{ width:100%; float:right; padding:13px 0 0 0;}
+.header aside a{ width:100px; height:38px; line-height:38px; text-align:center; font-family:"raleway semiBold"; font-size:12px; color:#FFF; display:block; background-color:#00cc56; text-transform:uppercase; border-radius:4px; box-shadow:#093 0 -3px 0 0 inset;margin:20px auto 30px auto; }
+.header aside a:hover{ background-color:#939; color:#FFF;box-shadow:#682981 0 -3px 0 0 inset;}
+
+.bnr{ width:100%; float:left; background:url(../images/bnr.png) center  top repeat-y;padding:440px 0 111px 0;}
+.bnr img{ width:40%;}
+.bnr h1{ font-family:"Myriad Pro"; font-size:26px; color:#FFF; text-transform:uppercase; text-align:center; font-weight:400;  }
+.bnr h1 span{ display:block;}
+
+
+
+.bdy2{width:100%; float:left; background:url(../images/body.png)  center top no-repeat; text-align:center; padding:39px 0 0px 0}
+.bdy2 h1{ font-family:"Myriad Pro"; font-size:15px; color:#000; font-weight:200; padding:0 0 48px 0}
+.bdy2 h1 span{ font-family:Raleway; font-size:13px; color:#333;font-weight:bold;}
+
+.bdy2 figure{ width:100%; float:left; padding:0 0 57px 0; text-align:center;}
+.bdy2 figure img{ width:95%;}
+
+.we{ width:100%; float: left; background:url(../images/we.png) center top repeat-y; }
+.we h1{ font-family:"Myriad Pro"; font-size:25px; color:#FFF; text-align:center; text-transform:uppercase; font-weight:300; padding:118px 0 29px 0}
+.we h2{ font-family:Raleway; font-size:17px; color:#CCC; text-align:center; font-style:italic; font-weight:300; line-height:20px; padding:0 0 29px 0}
+.we p{ font-family:Raleway; font-size:13px; color:#CCC; text-align:center; font-weight:300;line-height:15px;}
+.we a{width:100px; height:40px; display:block; border:#FFF solid 1px; border-radius:5px; color:#FFF; font-family:"Raleway SemiBold"; text-transform:uppercase; line-height:40px; text-align:center; margin:34px auto 126px auto; font-size:13px }
+.we a:hover{ background-color:#930;}
+
+.eltra{ width:100%; float:left;}
+.eltra article{ width:100%; float:left; background:url(../images/article.png) left top no-repeat; padding:557px 0 100px 15%;}
+
+.eltra article h1{ font-family:Raleway; font-size:20px; color:#FFF;font-weight:400}
+.eltra article p{ font-family:Raleway; font-size:13px; color:#FFF; font-weight:200}
+.eltra aside{ width:94%; float:right; background:url(../images/aside.png) right top no-repeat;padding:557px 0% 100px 6%}
+.eltra aside h2{ font-family:Raleway; font-size:20px; color:#FFF;font-weight:400}
+.eltra aside p{ font-family:Raleway; font-size:13px; color:#FFF; font-weight:200;}
+
+
+.glo{ width:100%; float:left; background-color:#f4f4f4;}
+.glo h1{ font-family:"Myriad Pro"; font-size:25px; color:#333; text-transform:uppercase; text-align:center; padding:82px 0 82px 0}
+.glo h1 span{ font-weight:100;}
+.glo figure{ width:100%; float:left; padding:0 0 74px 0;}
+/*.glo figure article{ width:33%; float:left}*/
+.glo figure article ul{ list-style:none; margin:0px; padding:0px;}
+.glo figure article ul li{ float:left;width:100%}
+.glo figure article ul li a{ font-family:"Myriad Pro"; font-size:35px; color:#666;background:url(../images/eyes.png)  5% center no-repeat; display:block; padding:47px 0 47px 30%; border:#dededf solid 1px; }
+.glo figure article ul li a span{ font-family:"Myriad Pro"; font-size:17px; color:#999; display:block; }
+.glo figure article ul li a:hover { background:url(../images/eyes7%27.png)5% center no-repeat;background-color:#6b6bbf; color:#fff;}
+.glo figure article ul li a:hover span{ font-family:"Myriad Pro"; font-size:17px; color:#fff; }
+.glo figure article ul li a.brd{ border-left:none; border-top:none;}
+.glo figure article ul li a.brd2{ border-top:none;}
+.glo figure article ul li a.brd3{ border-top:none; border-right:none;}
+.glo figure article ul li a.brd4{ border-bottom:none; border-left:none;}
+.glo figure article ul li a.brd5{ border-bottom:none;}
+.glo figure article ul li a.brd6{border-bottom:none;border-right:none;}
+
+.be{ width:100%; float:left; background:url(../images/aloe-ba.png)  left top  no-repeat; padding:0 0 104px 0}
+.be article{ width:100%; float:left; padding:100px 0 0 0; text-align:center;}
+.be article h1{ font-family:"open Sans"; font-size:20px; text-transform:uppercase; color:#FFF;; line-height:25px;}
+.be article h1 span{ font-weight:200; font-family: "Open Sans Light";}
+.be article p{ font-family:Raleway; font-size:12px; font-weight:200; color:#fff; padding:10px 0 0 0;}
+.be a{width:100px; height:40px; display:block; border:#FFF solid 1px; border-radius:5px; color:#FFF; font-family:"Raleway SemiBold"; text-transform:uppercase; line-height:40px; text-align:center; margin:18px auto 0 auto; font-size:15px; }
+.be a:hover{ background-color:#930;}
+
+
+.be aside{ width:100%; float: left; padding:80px 0 0 0; text-align:center;}
+.be aside img{ width:90%;}
+.btn { width:60%; float:right; padding:20px 0 0 30%}
+.btn  a{ width:10px; height:10px;  border-radius:50%; float:left; margin:0 6px 0 0; border:#069 solid 2px;}
+.btn  a:hover{background-color:#FFF;border:#fff solid 2px;}
+.btn  a.active{background-color:#FFF;border:#fff solid 2px; }
+
+
+.con{ width:100%; float:left; background:url(../images/RGB.png) left top  repeat-y;}
+.con h1{ font-family:"Myriad Pro"; font-size:26px; color:#FFF; text-align:center; text-transform:uppercase; padding:90px 0 70px 0}
+.con h1 span{ font-weight:100;}
+.con figure{ width:100%; float:left;}
+.con figure article{ width:90%; float:left; background:rgba(39,38,41,0.9); padding:0 5% 39px 5% ; border-radius:5px; margin:0 auto 20px auto;}
+.con figure article h2{ text-align:center; padding:45px 0 19px 0;}
+.con figure article h3{ font-family:Raleway; font-size:19px; color:#FFF; text-align:center;}
+.con figure article a{ font-family:Raleway; font-size:15px; font-weight:200;color:#aaaaaa; text-align:center; display:block; padding:9px 0 0 0;}
+.con figure article:hover{ background:rgba(75,41,43,1.9); cursor:pointer;}
+.con figure article a:hover{ color:#FF0;}
+.con figure article.gap{ margin:0 0% 20px 0%;}
+
+.don{ width:100%; float:left; padding:0 0 35px 0; }
+.don article{ width:100%; float:left;}
+.don article h3 {font-family:"Myriad Pro"; font-size:20px; color:#FFF; text-transform:uppercase; padding:0 0 20px 0 }
+.don article ul{ list-style:none; margin:0px; padding:0px;}
+.don article ul li{ }
+.don article ul li a{ font-family:Raleway; font-size:12px; color:#CCC; display:block; line-height:40px; }
+.don article ul li a:hover{ color:#F93;}
+
+
+.foll{ width:100%; float:left; margin:30px 0 0 0px}
+.foll h3 {font-family:"Myriad Pro"; font-size:20px; color:#FFF; text-transform:uppercase; padding:0 0 20px 0; }
+.foll ul{ list-style:none; margin:0px; padding:0px;}
+.foll ul li{}
+.foll ul li a{ background:url(../images/twtt.png) left top no-repeat;font-family:Raleway; font-size:12px; color:#CCC; display:block; line-height:27px; padding:0 0 0 35px ; margin:0 0 6px 0; transition: all 1s ease;}
+.foll ul li a:hover{ color:#F93; }
+.foll ul li a.facebook{ background:url(../images/facb.png) left top no-repeat;}
+.foll ul li a.google{ background:url(../images/go.png)  left top no-repeat;}
+.foll ul li a.pin{ background:url(../images/pi.png)  left top no-repeat;}
+
+
+.our{ width:100%; float:left; margin:40px 0 0px}
+.our h5{font-family:"Myriad Pro"; font-size:20px; color:#FFF; text-transform:uppercase; padding:0 0 20px 0px; text-align:left; }
+.our ul{ list-style:none; margin:0px; padding:0px;}
+.our ul li{}
+.our ul li a{font-family:Raleway; font-size:12px; color:#CCC; display:block; line-height:27px; padding:0 0 0 20px ; margin:0 0 6px 0; background:url(../images/location.png) left 20% no-repeat; margin:0 0 0 0px; width:140px}
+
+.our ul li a.phone{ background:url(../images/phone.png) left 58% no-repeat;}
+.our ul li a.mail{ background:url(../images/mail.png)left 58% no-repeat; }
+  
+.last{ width:100%; float:left; padding:60px 0 0 0}
+
+	
+	} 
+
+/********************************************************************************************************************************/
+
+
+
+@media only screen and (min-width:481px) and ( max-width:767px)
+
+
+{
+	
+.wrap{ width:96%; margin:0 auto 0 auto; padding:0 2% 0 2%; }
+.main{ width:100%; float:left; background-color:#FFF;}
+.header{ width:100%; float:left; background-color:#FFF;}
+.header hgroup{ width:20%; float:left; padding:11px 0 0 0}
+.header hgroup img{ width:90%;}
+.header nav{ width:53%; float:left; margin:13px 0 0 50px}
+.header nav ul{ list-style:none; margin:0px; padding:0px;}
+.header nav ul li{ float:left;}
+.header nav ul li a{ font-family:"raleway semiBold"; font-size:12px; color:#333;padding:12px 12px 12px 12px; display:block; text-align:center;border-bottom:#fff solid 2px; transition:all 1s ease; background-color:#FFF; }
+.header nav ul li a:hover{ color:#939;border-bottom:#939 solid 2px;transform:translateY(20px);}
+.header aside{ width:auto; float:right; padding:13px 0 0 0;}
+.header aside a{ width:130px; height:38px; line-height:38px; text-align:center; font-family:"raleway semiBold"; font-size:14px; color:#FFF; display:block; background-color:#00cc56; text-transform:uppercase; border-radius:4px; box-shadow:#093 0 -3px 0 0 inset;}
+.header aside a:hover{ background-color:#939; color:#FFF;box-shadow:#682981 0 -3px 0 0 inset;}
+
+
+
+/***************************************************************************************************************/
+.bnr{ width:100%; float:left; background:url(../images/bnr.png) center  top no-repeat;padding:440px 0 111px 0; background-size:cover; }
+.bnr { }
+.bnr h1{ font-family:"Myriad Pro"; font-size:38px; color:#FFF; text-transform:uppercase; text-align:center; font-weight:400;  }
+.bnr h1 span{ display:block;}
+	
+
+.bdy2{width:100%; float:left; background:url(../images/body.png)  center top no-repeat; text-align:center; padding:39px 0 0px 0}
+.bdy2 h1{ font-family:"Myriad Pro"; font-size:15px; color:#000; font-weight:200; padding:0 0 48px 0}
+.bdy2 h1 span{ font-family:Raleway; font-size:15px; color:#333;font-weight:bold;}
+
+.bdy2 figure{ width:100%; float:left; padding:0 0 57px 0; text-align:center;}
+.bdy2 figure img{ width:90%;}
+.we{ width:100%; float: left; background:url(../images/we.png) center top repeat-y; }
+.we h1{ font-family:"Myriad Pro"; font-size:40px; color:#FFF; text-align:center; text-transform:uppercase; font-weight:300; padding:118px 0 29px 0}
+.we h2{ font-family:Raleway; font-size:30px; color:#CCC; text-align:center; font-style:italic; font-weight:300; line-height:40px; padding:0 0 29px 0}
+.we p{ font-family:Raleway; font-size:15px; color:#CCC; text-align:center; font-weight:300;line-height:19px;}
+.we a{width:139px; height:40px; display:block; border:#FFF solid 1px; border-radius:5px; color:#FFF; font-family:"Raleway SemiBold"; text-transform:uppercase; line-height:40px; text-align:center; margin:34px auto 126px auto; }
+.we a:hover{ background-color:#930;}
+
+.eltra{ width:100%; float:left;}
+.eltra article{ width:35%; float:left; background:url(../images/article.png) left top no-repeat; padding:557px 0 92px 15%;}
+
+.eltra article h1{ font-family:Raleway; font-size:20px; color:#FFF;font-weight:400}
+.eltra article p{ font-family:Raleway; font-size:19px; color:#FFF; font-weight:200}
+.eltra aside{ width:44%; float:right; background:url(../images/aside.png) right top no-repeat;padding:557px 0% 80px 6%}
+.eltra aside h2{ font-family:Raleway; font-size:20px; color:#FFF;font-weight:400}
+.eltra aside p{ font-family:Raleway; font-size:22px; color:#FFF; font-weight:200;}
+	
+	
+.glo{ width:100%; float:left; background-color:#f4f4f4;}
+.glo h1{ font-family:"Myriad Pro"; font-size:40px; color:#333; text-transform:uppercase; text-align:center; padding:82px 0 82px 0;}
+.glo h1 span{ font-weight:100;}
+.glo figure{ width:100%; float:left; padding:0 0 74px 0;}
+/*.glo figure article{ width:33%; float:left}*/
+.glo figure article ul{ list-style:none; margin:0px; padding:0px;}
+.glo figure article ul li{ float:left;width:33.3%;}
+.glo figure article ul li a{ font-family:"Myriad Pro"; font-size:28px; color:#666;background:url(../images/eyes.png)  5% center no-repeat; display:block; padding:47px 0 47px 40%; border:#dededf solid 1px; }
+.glo figure article ul li a span{ font-family:"Myriad Pro"; font-size:13px; color:#999; display:block; }
+.glo figure article ul li a:hover { background:url(../images/eyes7%27.png)5% center no-repeat;background-color:#6b6bbf; color:#fff;}
+.glo figure article ul li a:hover span{ font-family:"Myriad Pro"; font-size:13px; color:#fff; }
+.glo figure article ul li a.brd{ border-left:none; border-top:none;}
+.glo figure article ul li a.brd2{ border-top:none;}
+.glo figure article ul li a.brd3{ border-top:none; border-right:none;}
+.glo figure article ul li a.brd4{ border-bottom:none; border-left:none;}
+.glo figure article ul li a.brd5{ border-bottom:none;}
+.glo figure article ul li a.brd6{border-bottom:none;border-right:none;}
+
+
+
+/**********************************************************************************************/
+.be{ width:100%; float:left; background:url(../images/aloe-ba.png)  left top  no-repeat; padding:0 0 104px 0}
+.be article{ width:26%; float:left; padding:100px 0 0 0}
+.be article h1{ font-family:"open Sans"; font-size:30px; text-transform:uppercase; color:#FFF;; line-height:35px}
+.be article h1 span{ font-weight:200; font-family: "Open Sans Light";}
+.be article p{ font-family:Raleway; font-size:13px; font-weight:200; color:#fff; padding:10px 0 0 0;}
+.be a{width:130px; height:35px; display:block; border:#FFF solid 1px; border-radius:5px; color:#FFF; font-family:"Raleway SemiBold"; text-transform:uppercase; line-height:35px; text-align:center; margin:18px 0 0 0; }
+.be a:hover{ background-color:#930;}
+
+.be aside{ width:72%; float:right; padding:100px 0 0 0; text-align: right;}
+.be aside img{ width:85%;}
+.btn { width:40%; float:right; padding:20px 0 0 60%}
+.btn  a{ width:8px; height:8px;  border-radius:50%; float:left; margin:0 6px 0 0; border:#069 solid 2px;}
+.btn  a:hover{background-color:#FFF;border:#fff solid 2px;}
+.btn  a.active{background-color:#FFF;border:#fff solid 2px; }
+
+
+/********************************************************************************************************************************/
+.con{ width:100%; float:left; background:url(../images/RGB.png) left top repeat-y;}
+.con h1{ font-family:"Myriad Pro"; font-size:50px; color:#FFF; text-align:center; text-transform:uppercase; padding:90px 0 70px 0;}
+.con h1 span{ font-weight:100;}
+.con figure{ width:100%; float:left;}
+.con figure article{ width:32%; float:left; background:rgba(39,38,41,0.8); padding:0 0 39px 0; border-radius:5px; margin:0 0 100px 0;}
+.con figure article h2{ text-align:center; padding:45px 0 19px 0;}
+.con figure article h3{ font-family:Raleway; font-size:18px; color:#FFF; text-align:center;}
+.con figure article a{ font-family:Raleway; font-size:12px; font-weight:200;color:#aaaaaa; text-align:center; display:block; padding:9px 0 0 0;}
+.con figure article:hover{ background:rgba(75,41,43,0.8); cursor:pointer;}
+.con figure article a:hover{ color:#FF0;}
+.con figure article.gap{ margin:0 2% 0 2%}
+
+.don{ width:100%; float:left; padding:0 0 35px 0; }
+.don article{ width:20%; float:left;}
+.don article h3 {font-family:"Myriad Pro"; font-size:20px; color:#FFF; text-transform:uppercase; padding:0 0 20px 0 }
+.don article ul{ list-style:none; margin:0px; padding:0px;}
+.don article ul li{ }
+.don article ul li a{ font-family:Raleway; font-size:12px; color:#CCC; display:block; line-height:27px; }
+.don article ul li a:hover{ color:#F93;}
+
+
+.foll{ width:20%; float:left; margin:0 0 0 30px}
+.foll h3 {font-family:"Myriad Pro"; font-size:20px; color:#FFF; text-transform:uppercase; padding:0 0 20px 0; }
+.foll ul{ list-style:none; margin:0px; padding:0px;}
+.foll ul li{}
+.foll ul li a{ background:url(../images/twtt.png) left top no-repeat;font-family:Raleway; font-size:12px; color:#CCC; display:block; line-height:27px; padding:0 0 0 35px ; margin:0 0 6px 0; transition: all 1s ease;}
+.foll ul li a:hover{ color:#F93; }
+.foll ul li a.facebook{ background:url(../images/facb.png) left top no-repeat;}
+.foll ul li a.google{ background:url(../images/go.png)  left top no-repeat;}
+.foll ul li a.pin{ background:url(../images/pi.png)  left top no-repeat;}
+
+/********************************************************************************************************************************/
+.our{ width:22%; float:left; margin:0 0 0 30px}
+.our h5{font-family:"Myriad Pro"; font-size:20px; color:#FFF; text-transform:uppercase; padding:0 0 20px 0 }
+.our ul{ list-style:none; margin:0px; padding:0px;}
+.our ul li{}
+.our ul li a{font-family:Raleway; font-size:12px; color:#CCC; display:block; line-height:27px; padding:0 0 0 30px ; margin:0 0 6px 0; background:url(../images/location.png) left 20% no-repeat; }
+
+.our ul li a.phone{ background:url(../images/phone.png) left 58% no-repeat;}
+.our ul li a.mail{ background:url(../images/mail.png)left 58% no-repeat; }
+  
+.last{ width:20%; float:right;}	
+	
+	
+	
+	}
+	
+/*************************************************************************************************/
+@media only screen and (min-width:360px) and ( max-width:640px)
+{
+	
+	
+.wrap{ width:96%; padding:0 2% 0 2%;}
+.main{ width:100%; float:left; background-color:#FFF;}
+.header{ width:100%; float:left; background-color:#FFF;}
+.header hgroup{ width:100%; float:left; padding:11px 0 0 0; text-align:center;}
+.header hgroup img{ width:50%;}
+.header nav{ width:100%; float:left; margin:40px 0 0 0px; text-align:center;}
+.header nav ul{ list-style:none; margin:0px; padding:0px;}
+.header nav ul li{ float:none; display:inline;}
+.header nav ul li a{ font-family:"raleway semiBold"; font-size:12px; color:#333;padding:10px 10px 10px 10px; display: inline-block; text-align:center;border-bottom:#fff solid 2px; background-color:#FFF; }
+.header nav ul li a:hover{ color:#939;border-bottom:#939 solid 2px; transform:none;}
+.header aside{ width:100%; float:right; padding:13px 0 0 0;}
+.header aside a{ width:100px; height:38px; line-height:38px; text-align:center; font-family:"raleway semiBold"; font-size:12px; color:#FFF; display:block; background-color:#00cc56; text-transform:uppercase; border-radius:4px; box-shadow:#093 0 -3px 0 0 inset;margin:20px auto 30px auto; }
+.header aside a:hover{ background-color:#939; color:#FFF;box-shadow:#682981 0 -3px 0 0 inset;}
+
+.bnr{ width:100%; float:left; background:url(../images/bnr.png) center  top repeat-y;padding:440px 0 111px 0;}
+.bnr img{ width:40%;}
+.bnr h1{ font-family:"Myriad Pro"; font-size:26px; color:#FFF; text-transform:uppercase; text-align:center; font-weight:400;  }
+.bnr h1 span{ display:block;}
+
+
+
+.bdy2{width:100%; float:left; background:url(../images/body.png)  center top no-repeat; text-align:center; padding:39px 0 0px 0}
+.bdy2 h1{ font-family:"Myriad Pro"; font-size:15px; color:#000; font-weight:200; padding:0 0 48px 0}
+.bdy2 h1 span{ font-family:Raleway; font-size:13px; color:#333;font-weight:bold;}
+
+.bdy2 figure{ width:100%; float:left; padding:0 0 57px 0; text-align:center;}
+.bdy2 figure img{ width:95%;}
+
+.we{ width:100%; float: left; background:url(../images/we.png) center top repeat-y; }
+.we h1{ font-family:"Myriad Pro"; font-size:25px; color:#FFF; text-align:center; text-transform:uppercase; font-weight:300; padding:118px 0 29px 0}
+.we h2{ font-family:Raleway; font-size:17px; color:#CCC; text-align:center; font-style:italic; font-weight:300; line-height:20px; padding:0 0 29px 0}
+.we p{ font-family:Raleway; font-size:13px; color:#CCC; text-align:center; font-weight:300;line-height:15px;}
+.we a{width:100px; height:40px; display:block; border:#FFF solid 1px; border-radius:5px; color:#FFF; font-family:"Raleway SemiBold"; text-transform:uppercase; line-height:40px; text-align:center; margin:34px auto 126px auto; font-size:13px }
+.we a:hover{ background-color:#930;}
+
+.eltra{ width:100%; float:left;}
+.eltra article{ width:85%; float:left; background:url(../images/article.png) left top no-repeat; padding:557px 0 100px 15%;}
+
+.eltra article h1{ font-family:Raleway; font-size:28px; color:#FFF;font-weight:400;}
+.eltra article p{ font-family:Raleway; font-size:15px; color:#FFF; font-weight:200;}
+.eltra aside{ width:94%; float:right; background:url(../images/aside.png) right top no-repeat;padding:557px 0% 100px 6%}
+.eltra aside h2{ font-family:Raleway; font-size:28px; color:#FFF;font-weight:400;}
+.eltra aside p{ font-family:Raleway; font-size:15px; color:#FFF; font-weight:200;}
+
+
+.glo{ width:100%; float:left; background-color:#f4f4f4;}
+.glo h1{ font-family:"Myriad Pro"; font-size:25px; color:#333; text-transform:uppercase; text-align:center; padding:82px 0 82px 0}
+.glo h1 span{ font-weight:100;}
+.glo figure{ width:100%; float:left; padding:0 0 74px 0;}
+/*.glo figure article{ width:33%; float:left}*/
+.glo figure article ul{ list-style:none; margin:0px; padding:0px;}
+.glo figure article ul li{ float:left;width:100%}
+.glo figure article ul li a{ font-family:"Myriad Pro"; font-size:35px; color:#666;background:url(../images/eyes.png)  5% center no-repeat; display:block; padding:47px 0 47px 30%; border:#dededf solid 1px; }
+.glo figure article ul li a span{ font-family:"Myriad Pro"; font-size:17px; color:#999; display:block; }
+.glo figure article ul li a:hover { background:url(../images/eyes7%27.png)5% center no-repeat;background-color:#6b6bbf; color:#fff;}
+.glo figure article ul li a:hover span{ font-family:"Myriad Pro"; font-size:17px; color:#fff; }
+.glo figure article ul li a.brd{ border-left:none; border-top:none;}
+.glo figure article ul li a.brd2{ border-top:none;}
+.glo figure article ul li a.brd3{ border-top:none; border-right:none;}
+.glo figure article ul li a.brd4{ border-bottom:none; border-left:none;}
+.glo figure article ul li a.brd5{ border-bottom:none;}
+.glo figure article ul li a.brd6{border-bottom:none;border-right:none;}
+
+.be{ width:100%; float:left; background:url(../images/aloe-ba.png)  left top  no-repeat; padding:0 0 104px 0}
+.be article{ width:100%; float:left; padding:100px 0 0 0; text-align:center;}
+.be article h1{ font-family:"open Sans"; font-size:26px; text-transform:uppercase; color:#FFF;; line-height:25px;}
+.be article h1 span{ font-weight:200; font-family: "Open Sans Light";}
+.be article p{ font-family:Raleway; font-size:15px; font-weight:200; color:#fff; padding:10px 0 0 0;}
+.be a{width:100px; height:40px; display:block; border:#FFF solid 1px; border-radius:5px; color:#FFF; font-family:"Raleway SemiBold"; text-transform:uppercase; line-height:40px; text-align:center; margin:18px auto 0 auto; font-size:15px; }
+.be a:hover{ background-color:#930;}
+
+
+.be aside{ width:100%; float: left; padding:80px 0 0 0; text-align:center;}
+.be aside img{ width:90%;}
+.btn { width:60%; float:right; padding:20px 0 0 30%}
+.btn  a{ width:10px; height:10px;  border-radius:50%; float:left; margin:0 6px 0 0; border:#069 solid 2px;}
+.btn  a:hover{background-color:#FFF;border:#fff solid 2px;}
+.btn  a.active{background-color:#FFF;border:#fff solid 2px; }
+
+
+.con{ width:100%; float:left; background:url(../images/RGB.png) left top  repeat-y;}
+.con h1{ font-family:"Myriad Pro"; font-size:26px; color:#FFF; text-align:center; text-transform:uppercase; padding:90px 0 70px 0}
+.con h1 span{ font-weight:100;}
+.con figure{ width:100%; float:left;}
+.con figure article{ width:65%; float:none; background:rgba(39,38,41,0.9); padding:0 0% 39px 0% ; border-radius:5px; margin:0 auto 20px auto;}
+.con figure article h2{ text-align:center; padding:45px 0 19px 0;}
+.con figure article h3{ font-family:Raleway; font-size:19px; color:#FFF; text-align:center;}
+.con figure article a{ font-family:Raleway; font-size:15px; font-weight:200;color:#aaaaaa; text-align:center; display:block; padding:9px 0 0 0;}
+.con figure article:hover{ background:rgba(75,41,43,1.9); cursor:pointer;}
+.con figure article a:hover{ color:#FF0;}
+.con figure article.gap{ margin:0 auto 20px auto;}
+
+.don{ width:100%; float:left; padding:30px 0 35px 0; }
+.don article{ width:100%; float:left;}
+.don article h3 {font-family:"Myriad Pro"; font-size:26px; color:#FFF; text-transform:uppercase; padding:0 0 20px 0 }
+.don article ul{ list-style:none; margin:0px; padding:0px;}
+.don article ul li{}
+.don article ul li a{ font-family:Raleway; font-size:14px; color:#CCC; display:block; line-height:40px; }
+.don article ul li a:hover{ color:#F93;}
+
+
+.foll{ width:100%; float:left; margin:30px 0 0 0px}
+.foll h3 {font-family:"Myriad Pro"; font-size:26px; color:#FFF; text-transform:uppercase; padding:0 0 20px 0; }
+.foll ul{ list-style:none; margin:0px; padding:0px;}
+.foll ul li{}
+.foll ul li a{ background:url(../images/twtt.png) left top no-repeat;font-family:Raleway; font-size:14px; color:#CCC; display:block; line-height:27px; padding:0 0 0 35px ; margin:0 0 6px 0; transition: all 1s ease;}
+.foll ul li a:hover{ color:#F93; }
+.foll ul li a.facebook{ background:url(../images/facb.png) left top no-repeat;}
+.foll ul li a.google{ background:url(../images/go.png)  left top no-repeat;}
+.foll ul li a.pin{ background:url(../images/pi.png)  left top no-repeat;}
+
+
+.our{ width:100%; float:left; margin:40px 0 0px}
+.our h5{font-family:"Myriad Pro"; font-size:26px; color:#FFF; text-transform:uppercase; padding:0 0 20px 0px; text-align:left; }
+.our ul{ list-style:none; margin:0px; padding:0px;}
+.our ul li{}
+.our ul li a{font-family:Raleway; font-size:14px; color:#CCC; display:block; line-height:27px; padding:0 0 0 30px ; margin:0 0 6px 0; background:url(../images/location.png) left 20% no-repeat; margin:0 0 0 0px; width:160px}
+
+.our ul li a.phone{ background:url(../images/phone.png) left 58% no-repeat;}
+.our ul li a.mail{ background:url(../images/mail.png)left 58% no-repeat; }
+  
+.last{ width:100%; float:left; padding:60px 0 0 0}
+
+	
+	} 	
+	
+	
+	
+	
+
+/*************************************************************************************************/	
+@media only screen and ( min-width:768px) and ( max-width:1024px)
+{
+	
+.wrap{ width:96%; margin:0 auto 0 auto; padding:0 2% 0 2%; }
+.main{ width:100%; float:left; background-color:#FFF;}
+.header{ width:100%; float:left; background-color:#FFF;}
+.header hgroup{ width:20%; float:left; padding:11px 0 0 0}
+.header hgroup img{ width:90%;}
+.header nav{ width:56%; float:left; margin:13px 0 0 50px;}
+.header nav ul{ list-style:none; margin:0px; padding:0px;}
+.header nav ul li{ float:left;}
+.header nav ul li a{ font-family:"raleway semiBold"; font-size:13px; color:#333;padding:12px 12px 12px 12px; display:block; text-align:center;border-bottom:#fff solid 2px; transition:all 1s ease; background-color:#FFF; }
+.header nav ul li a:hover{ color:#939;border-bottom:#939 solid 2px;transform:translateY(20px);}
+.header aside{ width:auto; float:right; padding:13px 0 0 0;}
+.header aside a{ width:125px; height:38px; line-height:38px; text-align:center; font-family:"raleway semiBold"; font-size:14px; color:#FFF; display:block; background-color:#00cc56; text-transform:uppercase; border-radius:4px; box-shadow:#093 0 -3px 0 0 inset;}
+.header aside a:hover{ background-color:#939; color:#FFF;box-shadow:#682981 0 -3px 0 0 inset;}
+
+
+
+/***************************************************************************************************************/
+.bnr{ width:100%; float:left; background:url(../images/bnr.png) center  top repeat-y;padding:440px 0 111px 0; background-size:cover;}
+.bnr h1{ font-family:"Myriad Pro"; font-size:50px; color:#FFF; text-transform:uppercase; text-align:center; font-weight:400;  }
+.bnr h1 span{ display:block;}
+
+/**************************************************************************************************************/
+
+.bdy2{width:100%; float:left; background:url(../images/body.png)  center top no-repeat; text-align:center; padding:39px 0 0px 0}
+.bdy2 h1{ font-family:"Myriad Pro"; font-size:16px; color:#000; font-weight:200; padding:0 0 48px 0}
+.bdy2 h1 span{ font-family:Raleway; font-size:14px; color:#333;font-weight:bold;}
+
+.bdy2 figure{ width:100%; float:left; padding:0 0 57px 0; text-align:center;}
+.bdy2 figure img{ width:90%;}
+.we{ width:100%; float: left; background:url(../images/we.png) center top repeat-y; }
+.we h1{ font-family:"Myriad Pro"; font-size:40px; color:#FFF; text-align:center; text-transform:uppercase; font-weight:300; padding:118px 0 29px 0}
+.we h2{ font-family:Raleway; font-size:30px; color:#CCC; text-align:center; font-style:italic; font-weight:300; line-height:35px; padding:0 0 29px 0}
+.we p{ font-family:Raleway; font-size:16px; color:#CCC; text-align:center; font-weight:300;line-height:20px;}
+.we a{width:139px; height:40px; display:block; border:#FFF solid 1px; border-radius:5px; color:#FFF; font-family:"Raleway SemiBold"; text-transform:uppercase; line-height:40px; text-align:center; margin:34px auto 126px auto; }
+.we a:hover{ background-color:#930;}
+
+.eltra{ width:100%; float:left;}
+.eltra article{ width:40%; float:left; background:url(../images/article.png) left top no-repeat; padding:557px 0 129px 10%;}
+
+.eltra article h1{ font-family:Raleway; font-size:20px; color:#FFF;font-weight:400}
+.eltra article p{ font-family:Raleway; font-size:15px; color:#FFF; font-weight:200}
+.eltra aside{ width:44%; float:right; background:url(../images/aside.png) right top no-repeat;padding:557px 0% 129px 6%}
+.eltra aside h2{ font-family:Raleway; font-size:20px; color:#FFF;font-weight:400}
+.eltra aside p{ font-family:Raleway; font-size:15px; color:#FFF; font-weight:200;}
+
+
+
+
+
+
+/**********************************************************************************************/
+
+.glo{ width:100%; float:left; background-color:#f4f4f4; margin:-40px 0 0 0}
+.glo h1{ font-family:"Myriad Pro"; font-size:40px; color:#333; text-transform:uppercase; text-align:center; padding:82px 0 82px 0}
+.glo h1 span{ font-weight:100;}
+.glo figure{ width:100%; float:left; padding:0 0 74px 0;}
+/*.glo figure article{ width:33%; float:left}*/
+.glo figure article ul{ list-style:none; margin:0px; padding:0px;}
+.glo figure article ul li{ float:left;width:33.3%}
+.glo figure article ul li a{ font-family:"Myriad Pro"; font-size:27px; color:#666;background:url(../images/eyes.png)  5% center no-repeat; display:block; padding:47px 0 47px 35%; border:#dededf solid 1px; }
+.glo figure article ul li a span{ font-family:"Myriad Pro"; font-size:13px; color:#999; display:block; }
+.glo figure article ul li a:hover { background:url(../images/eyes7%27.png)5% center no-repeat;background-color:#6b6bbf; color:#fff;}
+.glo figure article ul li a:hover span{ font-family:"Myriad Pro"; font-size:13px; color:#fff; }
+.glo figure article ul li a.brd{ border-left:none; border-top:none;}
+.glo figure article ul li a.brd2{ border-top:none;}
+.glo figure article ul li a.brd3{ border-top:none; border-right:none;}
+.glo figure article ul li a.brd4{ border-bottom:none; border-left:none;}
+.glo figure article ul li a.brd5{ border-bottom:none;}
+.glo figure article ul li a.brd6{border-bottom:none;border-right:none;}
+
+
+
+/**********************************************************************************************/
+.be{ width:100%; float:left; background:url(../images/aloe-ba.png)  left top  no-repeat; padding:0 0 104px 0}
+.be article{ width:26%; float:left; padding:100px 0 0 0}
+.be article h1{ font-family:"open Sans"; font-size:37px; text-transform:uppercase; color:#FFF;; line-height:50px}
+.be article h1 span{ font-weight:200; font-family: "Open Sans Light";}
+.be article p{ font-family:Raleway; font-size:15px; font-weight:200; color:#fff; padding:10px 0 0 0;}
+.be a{width:120px; height:40px; display:block; border:#FFF solid 1px; border-radius:5px; color:#FFF; font-family:"Raleway SemiBold"; text-transform:uppercase; line-height:40px; text-align:center; margin:18px 0 0 0; font-size:15px; }
+.be a:hover{ background-color:#930;}
+
+.be aside{ width:72%; float:right; padding:100px 0 0 0; text-align: right;}
+.be aside img{ width:90%;}
+
+.btn { width:40%; float:right; padding:20px 0 0 60%}
+.btn  a{ width:10px; height:10px;  border-radius:50%; float:left; margin:0 6px 0 0; border:#069 solid 2px;}
+.btn  a:hover{background-color:#FFF;border:#fff solid 2px;}
+.btn  a.active{background-color:#FFF;border:#fff solid 2px; }
+
+
+/********************************************************************************************************************************/
+.con{ width:100%; float:left; background:url(../images/RGB.png) left top no-repeat;}
+.con h1{ font-family:"Myriad Pro"; font-size:40px; color:#FFF; text-align:center; text-transform:uppercase; padding:90px 0 70px 0}
+.con h1 span{ font-weight:100;}
+.con figure{ width:100%; float:left;}
+.con figure article{ width:32%; float:left; background:rgba(39,38,41,0.8); padding:0 0 39px 0; border-radius:5px; margin:0 0 100px 0}
+.con figure article h2{ text-align:center; padding:45px 0 19px 0;}
+.con figure article h3{ font-family:Raleway; font-size:17px; color:#FFF; text-align:center;}
+.con figure article a{ font-family:Raleway; font-size:13px; font-weight:200;color:#aaaaaa; text-align:center; display:block; padding:9px 0 0 0;}
+.con figure article:hover{ background:rgba(75,41,43,0.8); cursor:pointer;}
+.con figure article a:hover{ color:#FF0;}
+.con figure article.gap{ margin:0 2% 0 2%}
+
+.don{ width:100%; float:left; padding:0 0 35px 0; }
+.don article{ width:20%; float:left;}
+.don article h3 {font-family:"Myriad Pro"; font-size:20px; color:#FFF; text-transform:uppercase; padding:0 0 20px 0 }
+.don article ul{ list-style:none; margin:0px; padding:0px;}
+.don article ul li{ }
+.don article ul li a{ font-family:Raleway; font-size:12px; color:#CCC; display:block; line-height:27px; }
+.don article ul li a:hover{ color:#F93;}
+
+
+.foll{ width:20%; float:left; margin:0 0 0 40px}
+.foll h3 {font-family:"Myriad Pro"; font-size:20px; color:#FFF; text-transform:uppercase; padding:0 0 20px 0; }
+.foll ul{ list-style:none; margin:0px; padding:0px;}
+.foll ul li{}
+.foll ul li a{ background:url(../images/twtt.png) left top no-repeat;font-family:Raleway; font-size:12px; color:#CCC; display:block; line-height:27px; padding:0 0 0 35px ; margin:0 0 6px 0; transition: all 1s ease;}
+.foll ul li a:hover{ color:#F93; }
+.foll ul li a.facebook{ background:url(../images/facb.png) left top no-repeat;}
+.foll ul li a.google{ background:url(../images/go.png)  left top no-repeat;}
+.foll ul li a.pin{ background:url(../images/pi.png)  left top no-repeat;}
+
+/********************************************************************************************************************************/
+.our{ width:20%; float:left; margin:0 0 0 40px}
+.our h5{font-family:"Myriad Pro"; font-size:20px; color:#FFF; text-transform:uppercase; padding:0 0 20px 0 }
+.our ul{ list-style:none; margin:0px; padding:0px;}
+.our ul li{}
+.our ul li a{font-family:Raleway; font-size:12px; color:#CCC; display:block; line-height:27px; padding:0 0 0 30px ; margin:0 0 6px 0; background:url(../images/location.png) left 20% no-repeat; width:130px;}
+
+.our ul li a.phone{ background:url(../images/phone.png) left 58% no-repeat;}
+.our ul li a.mail{ background:url(../images/mail.png)left 58% no-repeat; }
+  
+.last{ width:20%; float:right;}
+	
+	
+	
+	
+	}
+
+
+
+
+
+
+/*************************************************************************************************/		
